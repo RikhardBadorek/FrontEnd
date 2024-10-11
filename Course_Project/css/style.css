@@ -349,6 +349,21 @@ img {
     box-shadow: 0 5px 12px grey;
 }
 
+/*buy*/
+
+.buy {
+    padding: 15px;
+    background-color: rgba(16, 211, 110, 0.2);
+    max-width: 70%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(30, 28, 28);
+    border-radius: 15px;
+    box-shadow: 0 5px 12px grey;
+}
+
 /*media*/
 
 @media (max-width: 960px) {
