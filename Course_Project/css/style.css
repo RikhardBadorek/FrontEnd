@@ -163,11 +163,169 @@ img {
     font-size: 32px;
 }
 
+/*Pricing*/
+
+.pricing .pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+    margin-top: 15px;
+}
+
+.pricing {
+    padding: 20px 0;
+}
+
+.pricing-heading {
+    text-align: center;
+    font-size: 36px;
+    color: var(--dark-color);
+    margin-bottom: 10px;
+}
+
+.pricing-subheading {
+    text-align: center;
+    font-size: 17px;
+    color: var(--dark-color);
+    font-weight: 570;
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px var(--dark-color);
+}
+
+.card.basic {
+    background-color: #bff4c9;
+}
+
+.card.pro {
+    background-color: #78e88e;
+}
+
+.pricing-card-header {
+    text-align: center;
+    border-bottom: 1px solid #423737;
+    padding-bottom: 20px;
+    color: var(--dark-color);
+}
+
+.pricing-card-header h4 {
+    color: var(--dark-color);
+}
+
+.pricing-card-subheading {
+    margin-top: 15px;
+}
+
+.pricing-card-price span {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.pricing-card-body ul {
+    margin: 10px 20px;
+}
+
+.pricing-card-body a {
+    margin: 10px 20px;
+}
+
+/*FAQ*/
+
+.faq {
+    padding: 40px 0;
+}
+
+.faq .faq-group {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.faq .faq-group .faq-group-header {
+    padding: 20px 0;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.faq .faq-group .faq-group-header h4 {
+    font-weight: 600;
+    width: 95%;
+}
+
+.faq .faq-group .faq-group-header i {
+    position: absolute;
+    right: 0;
+    top: 35px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.faq .faq-group .faq-group-body {
+    display: none;
+}
+
+.faq .faq-group .faq-group-body.open {
+    display: block;
+}
+
+/*Footer*/
+
+.footer {
+    padding: 40px 0;
+    background-color: #000000;
+    color: #fff;
+}
+
+.footer img {
+    max-width: 150px;
+    margin-bottom: 15px;
+}
+
+
+
+.footer ul li {
+    line-height: 2.5;
+}
+
+.footer a {
+    color: #ccc;
+}
+
+.footer i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .card {
+    margin: 20px 30px 30px 0;
+}
+
+.footer input[type='email'] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
 
 /*media*/
 
 @media (max-width: 960px) {
-    
+    .hero-heading {
+        font-size: 2rem;
+    }
 }
 
 @media (max-width: 670px) {
