@@ -26,3 +26,4 @@ document.addEventListener('DOMContentLoaded', () => {
         groupBody.classList.toggle("open")
     })
 })
+
